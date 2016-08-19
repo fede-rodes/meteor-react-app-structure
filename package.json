@@ -1,0 +1,38 @@
+{
+  "name": "boilerplate-meteor1.3",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint --silent"
+  },
+  "dependencies": {
+    "cloudinary": "^1.4.1",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.0.1",
+    "react-addons-css-transition-group": "^15.2.1",
+    "react-addons-pure-render-mixin": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-modal-bootstrap": "^1.0.0",
+    "react-mounter": "^1.2.0",
+    "react-waypoint": "^3.0.0",
+    "warning": "^3.0.0"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "meteor"
+    ],
+    "extends": [
+      "airbnb",
+      "plugin:meteor/recommended"
+    ],
+    "rules": {}
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-meteor": "^3.5.2",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}

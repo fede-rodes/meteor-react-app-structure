@@ -1,0 +1,50 @@
+@import '_base.scss';
+
+.signup-page {
+  .row-title {
+    color: $blue-color;
+    font-size: 19px;
+  }
+
+  .row-subtitle {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  button.create-account-button {
+    width: 100%;
+    background-color: $blue-color;
+    color: white;
+    text-decoration: none;
+    height: 59px;
+  }
+
+  a.login-link {
+    color: $blue-color;
+    text-decoration: none;
+  }
+
+  a.terms-link {
+    color: $blue-color;
+    text-decoration: none;
+  }
+
+  img.selected-avatar {
+    margin-right: 10px;
+    border: 1px solid white;
+    @include rounded(50%);
+  }
+
+  a.signup-button,
+  button.signup-button {
+    border-color: $red-color;
+    color: $red-color;
+    background-color: white;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $red-color;
+    }
+  }
+  
+}
