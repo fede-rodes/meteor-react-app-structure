@@ -1,5 +1,7 @@
 # Meteor-React App Structure Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fede-rodes/meteor-react-app-structure.svg)](https://greenkeeper.io/)
+
 ## Install Meteor in your local Machine
 curl https://install.meteor.com/ | sh
 
